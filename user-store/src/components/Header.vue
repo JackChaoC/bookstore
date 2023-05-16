@@ -28,7 +28,8 @@ import { mapState, mapMutations } from "vuex";
 export default {
     data() {
         return {
-            userId:sessionStorage.getItem('userToken')
+            userId:sessionStorage.getItem('userToken'),
+            test:"test"
         }
     },
     methods: {
